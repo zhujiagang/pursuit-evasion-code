@@ -1,10 +1,4 @@
-DQN 3.0
--------
-
-This project contains the source code of DQN 3.0, a Lua-based deep reinforcement
-learning architecture, necessary to reproduce the experiments
-described in the paper "Human-level control through deep reinforcement
-learning", Nature 518, 529–533 (26 February 2015) doi:10.1038/nature14236.
+This repo holds the codes for the paper "Learning Evasion Strategy in Pursuit-Evasion by Deep Q-Network, ICPR 2018".
 
 To replicate the experiment results, a number of dependencies need to be
 installed, namely:
@@ -31,7 +25,7 @@ and installation instructions can be found in
 http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux
 
 
-To train DQN on Atari games, the following components must be installed:
+To train the DQN, the following components must be installed:
 * LuaJIT and Torch 7.0
 * nngraph
 * Xitari
@@ -48,42 +42,7 @@ Note: The above install script will install the following packages via apt-get:
 build-essential, gcc, g++, cmake, curl, libreadline-dev, git-core, libjpeg-dev,
 libpng-dev, ncurses-dev, imagemagick, unzip
 
-Training DQN on Atari games
+Training the DQN
 ---------------------------
 
-Prior to running DQN on a game, you should copy its ROM in the 'roms' subdirectory.
-It should then be sufficient to run the script
-
-    ./run_cpu <game name>
-
-Or, if GPU support is enabled,
-
-    ./run_gpu <game name>
-
-
-Note: On a system with more than one GPU, DQN training can be launched on a
-specified GPU by setting the environment variable GPU_ID, e.g. by
-
-    GPU_ID=2 ./run_gpu <game name>
-
-If GPU_ID is not specified, the first available GPU (ID 0) will be used by default.
-
-Storing a .gif for a trained network
-------------------------------------
-
-Once you have a snapshot of a network you can run
-
-	./test_gpu <game name> <snapshopt filename>
-
-to make it play one game and store the .gif under `gifs`. For example
-
-	./test_gpu breakout DQN3_0_1_breakout_FULL_Y.t7
-
-Options
--------
-
-Options to DQN are set within run_cpu (respectively, run_gpu). You may,
-for example, want to change the frequency at which information is output 
-to stdout by setting 'prog_freq' to a different value.
-=======
-This repo will hold the codes for the paper "Learning Evasion Strategy in Pursuit-Evasion by Deep Q-Network, ICPR 2018".
+    ./run_gpu
