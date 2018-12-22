@@ -53,7 +53,7 @@ Training the DQN
 ## Citation
 Please cite the following paper if you feel this repository useful.
 ```
-@inproceedings{DTPP2018ICPR,
+@inproceedings{PURSUITEVASION2018ICPR,
   author    = {Jiagang Zhu and
                Wei Zou and
                Zheng Zhu},
