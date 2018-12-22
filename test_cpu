@@ -1,0 +1,4 @@
+
+cd dqn
+
+/home/user/torch/install/bin/qlua test_agent_cpu.lua
