@@ -46,3 +46,27 @@ Training the DQN
 ---------------------------
 
     ./run_gpu
+    
+    
+    
+    
+## Citation
+Please cite the following paper if you feel this repository useful.
+```
+@inproceedings{DTPP2018ICPR,
+  author    = {Jiagang Zhu and
+               Wei Zou and
+               Zheng Zhu},
+  title     = {Learning Evasion Strategy in Pursuit-Evasion by Deep Q-Network},
+  booktitle   = {ICPR},
+  year      = {2018},
+}
+
+```
+
+
+## Contact
+For any question, please contact
+```
+Jiagang Zhu: zhujiagang2015@ia.ac.cn
+```
