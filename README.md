@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DeepMind Atari Deep Q Learner
 This repository hosts the [original code](https://sites.google.com/a/deepmind.com/dqn/) published along with [the article](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html) in Nature and my experiments (if any) with it.
 
@@ -92,3 +93,8 @@ Options
 Options to DQN are set within run_cpu (respectively, run_gpu). You may,
 for example, want to change the frequency at which information is output 
 to stdout by setting 'prog_freq' to a different value.
+=======
+# pursuit-evasion-code
+
+This repo will hold the codes for the paper "Learning agent for evader in pursuit-evasion with deep reinforcement learning".
+>>>>>>> 0fec078d7f2da372644533a976580ce57e12255b
